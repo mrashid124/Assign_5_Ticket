@@ -116,7 +116,7 @@
  
             </div>
             <div class="flex flex-col items-center justify-center my-8">
-                <button class="btn border-2 border-green-300 outline-green-300 text-black">See All Offers</button>
+                <button onclick="offerSelect()" class="btn border-2 border-green-300 outline-green-300 text-black">See All Offers</button>
               </div>
         </section>
         <!-- Ticket pricing -->
@@ -125,6 +125,25 @@
                 <h2 class="text-4xl font-bold text-center my-4">M R Coach Expertise</h2>
                 <p class="text-sm text-gray-300 text-center">M R Coach expertise provides  largest transport 
                     services <br>connecting major towns and cities in Bangladesh.</p>
+                    <!-- **** -->
+                    <div class="flex flex-col w-full lg:flex-row">
+                        <div class="grid flex-grow h-18 w-4/5 card bg-base-300 rounded-box">
+                            <div class="flex justify-between">
+                                <div class="flex flex-row"><img src="images/bus-logo.png" alt=""><span class="text-4xl">M R Coach Expertise</span>Coach-009-WEB ! AC_Business</div>
+                                <div class="flex flex-row"><img src="images/seat-green.png" alt=""><span class="text-green-500">Seats left</span></div>
+                            </div> 
+                           
+                        </div> 
+
+                        <div class="divider lg:divider-horizontal"> </div> 
+                        
+                                <div class="grid flex-grow h-18 card bg-base-300 rounded-box place-items-center">
+                                   <img src="images/fare.png" alt="">
+                                    <h2 class="text-4xl">550 Taka</h2>
+                                   <p>Per Seat</p>
+                                </div>
+                      </div>
+                    <!-- *** -->
             </div>
             <div></div>
         </section>
@@ -134,7 +153,7 @@
                 <h2 class="my-8">Select Your Seat</h2>
                 <div class="flex justify-between">
                     <div class="flex flex-row"><img src="images/seat-gray.png" alt="">Available</div>
-                    <div class="flex flex-row"><img src="images/seat-green-filled.png" alt="">Selected</div>
+                    <div class="flex flex-row"><img src="images/seat-green-filled.png" alt=""><span class="text-green-500">Selected</span></div>
                 </div>
             </div>
             <div>
@@ -150,6 +169,8 @@
         </section>
     
     </main>
+
+    <script src="script/index.js"></script>
     <footer>
 
     </footer>
