@@ -12,3 +12,17 @@
 .color-green{
  color: lawngreen;
 }
+
+.button {
+    /* background-color: #04AA6D; */
+    border: none;
+    color:030712;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    border-radius: 12px;
+  }
+
+  
